@@ -774,11 +774,11 @@ form#new_account_form h4{ margin-bottom:10px;}
 /* ************************************************************************************************
 PDODUCT PAGE
 ************************************************************************************************ */
-
+.addsharethisinner span {-moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box;}
 /* pb-left-column*/
 #pb-left-column {}
 #pb-left-column h1,
-.pb-right-colum-h {background:none;border:none;color:#333333;font-size: 23px;margin:-6px 0 15px 0;padding: 0 0px 0 0;text-transform: none; line-height:27px;}
+.pb-right-colum-h {background:none;border:none;color:#333333;font-size: 23px;margin:0 0 15px 0;padding: 0 0px 0 0;text-transform: none; line-height:27px;}
 .pb-right-colum-h { display:none;}
 #pb-left-column #short_description_block #short_description_content {margin-top:2px;margin-bottom:-2px;}
 #pb-left-column #short_description_block #short_description_content p{ margin-bottom:0;}
@@ -802,35 +802,35 @@ background: -webkit-linear-gradient(top, rgba(70,70,70,1) 0%,rgba(38,38,38,1) 10
 #primary_block .buttons_bottom_block a.exclusive  span{background:url(../img/btn-marker.png) left  top  no-repeat; line-height:18px;padding:2px 0 2px 20px;}
 #primary_block .buttons_bottom_block a.exclusive:hover{ border:1px solid #fb5f49; border-right:1px solid #f82b0f; border-bottom:1px solid #f82b0f;background:#ff553d;}
 .list-radio{ margin-right:25px; float:left;}
-.row_1 {overflow:hidden;text-align:left;padding: 20px 0;border-top: 1px dotted #dadad9;border-bottom: 1px  dotted #dadad9;}
+.row_1 {overflow:hidden;text-align:left;padding: 10px 0;border-top: 1px dotted #dadad9;}
 .row_1 p {float:right;padding:0;}
-.row_1 p.our_price_display{padding-top:13px;display:inline-block; float:left; padding-bottom:3px;}
-.row_1 p.our_price_display span{font-size:24px;line-height:18px; color:#333;padding-top: 13px; display:inline-block;}
+#second-col p.our_price_display{display:inline-block; float:right; padding:0 0 3px;margin:0;}
+#second-col p.our_price_display span{font-size:24px;line-height:25px; color:#333; display:inline-block;}
 .row_1 p#quantity_wanted_p {padding-right:12px; padding-top:7px;}
 .row_1 p#quantity_wanted_p input {float:right;height:28px;padding:5px;text-align:center;width:40px; margin:0;}
 .row_1 p#quantity_wanted_p label {float:right;padding:4px 10px 0 0;text-align:right;}
 .row_1 input#add2cartbtn {display: none;}
 .row_1 span.exclusive {float:right;}
-#buy_block .row-2 {overflow: hidden;text-align: left; margin-top:1px; padding-top:10px; border-top:1px dotted #ccc;}
+#second-col .row-2 {overflow: hidden;text-align: right; float: right; margin:0;clear: both;}
 #buy_block .row-2 .on_sale_img{ float:right; margin-bottom:8px;}
 #buy_block .row-2.bordered {border-top: 1px  dotted #ccc; padding-top:20px;}
-#buy_block .row-2 span.on_sale,#buy_block .row-2 span.discount {display:block;float:left;color:#333;padding:7px 6px 0px 30px;font-size:18px; font-style:italic;font-weight:normal;color:#ff743d;}
-#buy_block .row-2 #reduction_percent,#buy_block .row-2 #reduction_amount {padding:12px 0 0px 0; float:left; margin-right:12px; font-size:14px;font-style:italic;font-weight:normal; color:#333;}
-#buy_block .row-2 #reduction_percent span,#buy_block .row-2 #reduction_amount span {display: block;float:right;font-size:14px;font-style:italic;font-weight:normal;color:#333;}
-#buy_block .row-2 #old_price {padding:12px 0 0px 0;font-size:14px; display:inline-block; font-style:italic;font-weight:normal;color:#333;float:left; margin-right:7px;}
-#buy_block .row-2 #old_price .price{ font-size:14px;font-style:italic;font-weight:normal; color:#333;}
+#second-col .row-2 span.on_sale,#second-col .row-2 span.discount {display:none;float:left;color:#333;padding:7px 6px 0px 30px;font-size:18px; font-style:italic;font-weight:normal;color:#ff743d;}
+#second-col .row-2 #reduction_percent,#second-col .row-2 #reduction_amount {display: none;padding:12px 0 0px 0; float:left; margin-right:12px; font-size:14px;font-style:italic;font-weight:normal; color:#333;}
+#second-col .row-2 #reduction_percent span,#second-col .row-2 #reduction_amount span {display: block;float:right;font-size:14px;font-style:italic;font-weight:normal;color:#333;}
+#second-col .row-2 #old_price {padding:0;font-size:14px; display:inline-block; font-style:italic;font-weight:normal;color:#333;float:left; margin:0;}
+#second-col .row-2 #old_price .price{ font-size:14px;font-style:italic;font-weight:normal; color:#333;}
 #buy_block .row-3 {overflow: hidden;text-align:left;}
 #buy_block .row-3 #pQuantityAvailable {padding-bottom:7px;}
 #buy_block .pack_price{ padding:0 0 10px 0;margin:0;}
-#buy_block p#old_price {padding-bottom: 15px;font-size:14px;text-decoration:line-through;}
+#second-col p#old_price {padding-bottom: 0;font-size:14px;text-decoration:line-through;}
 #buy_block #pQuantityAvailable {font-weight:bold; color:#0C0;}
 #view_scroll_right,span.view_scroll_spacer{ top:70px;}
 #thumbs_list li + li {margin-right: 9px;}
 /*atributes*/
-.product_attributes #attributes {padding:11px 0 7px 0;border-top: 1px  dotted #ccc;}
+.product_attributes #attributes {padding:0px 0 7px 0;}
 .product_attributes #attributes label {vertical-align:top;position:relative; display:block; padding-bottom:6px; font-weight:bold; color:#333; padding-top:5px;}
 .product_attributes #color_to_pick_list {list-style-type: none;}
-.product_attributes #color_to_pick_list li {float: left;margin: 0 20px 0px 0;border-radius:25px;}
+.product_attributes #color_to_pick_list li {float: left;margin: 0 20px 20px 0;border-radius:25px;}
 .product_attributes #color_to_pick_list li.selected { box-shadow:0px 0px 5px 0px #FF743D; }
 .short_description_pack{padding:10px 0px 0px 0;}
 .short_description_pack h3{padding:5px 0 0 0;margin:0;}
@@ -844,6 +844,7 @@ background: -webkit-linear-gradient(top, rgba(70,70,70,1) 0%,rgba(38,38,38,1) 10
 #attributes .attribute_list .attribute_radio{ margin:-1px 5px 0 0;}
 .attribute_list #color_to_pick_list a.color_pick {display: block;height:25px;width:25px;border-radius:25px; }
 .attribute_list #color_to_pick_list a.color_pick img{ border-radius:25px;}
+#second-col .product_attributes {padding:0;}
 .product_attributes {padding:10px 0 0 0;}
 #attributes select {width:100%; display:block;}
 #availability_statut {padding-bottom:10px; float:left;}

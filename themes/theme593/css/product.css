@@ -23,7 +23,7 @@
 #primary_block #image-block {border:1px solid #e5e5e5;}
 #primary_block #image-block img#bigpic.jqzoom {cursor:crosshair;position:relative;}
 #pb-right-column #image-block #view_full_size .span_link img {position:relative;top:3px;left:-3px;border:none;padding-right:2px;}
-#views_block{ padding:10px 0 0 0px;position:relative; height:129px; overflow:hidden; margin-bottom:20px;}
+#views_block{ padding:10px 0 0 0px;position:relative; height:129px; overflow:hidden;}
 #thumbs_list {width:371px;overflow:hidden;}
 #thumbs_list ul{ list-style:none;width: 10000px !important;}
 #thumbs_list li {float:left;cursor:pointer;margin-right:10px;}
