@@ -1,2 +1,4 @@
 .ht*
 cache/
+config/settings.inc.php
+img/tmp/
