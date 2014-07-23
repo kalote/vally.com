@@ -1324,7 +1324,17 @@ table th[class*="col-"] {
       .table-responsive > .table-bordered > tbody > tr:last-child > td,
       .table-responsive > .table-bordered > tfoot > tr:last-child > th,
       .table-responsive > .table-bordered > tfoot > tr:last-child > td {
-        border-bottom: 0; } }
+        border-bottom: 0; } 
+.list-featured.responsive{ height: 300px}
+
+.righsidecontents{ background:url("../images/greytopbk.png") no-repeat scroll center top / 100% 90%!important;)}
+.welcomevally{ width: 97.5%!important;}
+.welcomevally ul li{padding: 4px 6px 5px!important;}
+
+
+
+
+      }
 fieldset {
   padding: 0;
   margin: 0;
@@ -3665,7 +3675,12 @@ td.hidden-sm {
 
   th.hidden-sm.hidden-md,
   td.hidden-sm.hidden-md {
-    display: none !important; } }
+    display: none !important; }
+
+.righsidecontents{width: 92%!important}
+
+
+     }
 @media (min-width: 1200px) {
   .hidden-sm.hidden-lg {
     display: none !important; }
@@ -5578,7 +5593,7 @@ span.exclusive {
           .logo{ float: none!important; margin:13px auto!important}
           
           .searchcarts,
-          .searchcarts #search_block_top{ width: auto!important;}
+          .searchcarts #search_block_top{ width: 100%!important;}
           #header .shopping_cart,
           .shopping_cart{ width: 155px; margin: 10px auto 0; float: none!important;}
 .col-sm-5,
@@ -5619,8 +5634,8 @@ span.exclusive {
 #homepage-slider{ padding: 0!important}
 .navigation{ margin-top: 10px}
 .welcomevally ul{ margin: 0; padding: 0}
-.righsidecontents{ width: 100%!important; float: none!important; background: #8b8b8b!important}
-.welcomevally ul li{ font-size: 12px!important; padding: 3px 7px 4px!important}
+.righsidecontents{ width: 100%!important; float: none!important; background: #8b8b8b!important; padding-bottom: 0!important}
+.welcomevally ul li{ font-size: 11px!important; padding: 3px 4px 4px!important}
 .welcomevally{ width: 100%!important; float: none;}
 .obground{background-size: 100% 41%!important;background-position: 0 0!important;}
 .joinleters{ font-size: 11px!important}
@@ -5628,6 +5643,7 @@ span.exclusive {
 .mailbox{ width: auto!important; margin: 0!important; float: none!important; background:#333333!important; padding: 10px 0 1px; clear: both ;}
 .newsleter{ background:none!important}
 .form-group{ margin-bottom:8px}
+.list-featured.responsive{height:255px!important}
 
            }
   .button.button-medium:hover {
@@ -6852,7 +6868,7 @@ div.star a:hover {
       position: relative; 
       box-shadow: 0px 0px 0px 0px; }
 .footer_bottom {
-  background: url("../images/footeri.png") no-repeat scroll 0 231px / 100% 7% #333333;
+  background: url("../images/footeri.png") no-repeat scroll 0 100% / 100% 7% #333333;
   display: block;
   float: left;
   padding-bottom: 10px;
