@@ -42,4 +42,3 @@
 {if isset($HOOK_HOME) && $HOOK_HOME|trim}
 	<div class="clearfix">{$HOOK_HOME}</div>
 {/if}
- {hook h='TmfeatureproductSlider'}
