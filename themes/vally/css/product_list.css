@@ -134,7 +134,7 @@ ul.product_list.grid > li {
             color: #b1b0b0; }
     ul.product_list.grid > li .product-container h5 {
       padding: 0 15px 7px 15px;
-      min-height: 53px; }
+      min-height: 35px; }
     @media (min-width: 1200px) {
       ul.product_list.grid > li .product-container .comments_note {
         display: none; } }
@@ -321,7 +321,7 @@ Product list(Index page) Styles
   margin-bottom: 10px; }
   @media (min-width: 1200px) {
     #index ul.product_list.tab-pane > li {
-      padding-bottom: 85px;
+      padding-bottom: 30px;
       margin-bottom: 0; } }
   #index ul.product_list.tab-pane > li .availability {
     display: none; }

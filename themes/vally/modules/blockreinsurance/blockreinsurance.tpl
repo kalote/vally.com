@@ -29,7 +29,7 @@
 	
 	<ul class="width{$nbblocks}">	
 		{foreach from=$infos item=info}
-			<li><img src="{$link->getMediaLink("/themes/vally/img/reinsurrance/`$info.file_name|escape:'htmlall':'UTF-8'`")}" alt="{$info.text|escape:html:'UTF-8'}" /> <span>{$info.text|escape:html:'UTF-8'}</span></li>                        
+			<li><img src="{$link->getMediaLink("/prestashop/themes/vally/img/reinsurrance/`$info.file_name|escape:'htmlall':'UTF-8'`")}" alt="{$info.text|escape:html:'UTF-8'}" /> <span>{$info.text|escape:html:'UTF-8'}</span></li>                        
 		{/foreach}
 	</ul>
 </div>

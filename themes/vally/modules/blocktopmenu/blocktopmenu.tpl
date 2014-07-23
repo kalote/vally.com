@@ -3,7 +3,7 @@
 	<div id="block_top_menu" class="sf-contener clearfix col-lg-12 navigation" >
 		<div class="cat-title">{l s="Categories" mod="blocktopmenu"}</div>
 		<ul class="sf-menu clearfix menu-content">
-			<li class="cust_home"><a class="sf-with-ul" href="{$base_dir}"><img src="{$img_dir}/homebtn.png"></a></li>
+			<li class="cust_home sfHover"><a class="sf-with-ul" href="{$base_dir}"><img src="{$img_dir}/homebtn.png"></a></li>
 			{$MENU}
 				
 			{if $MENU_SEARCH}

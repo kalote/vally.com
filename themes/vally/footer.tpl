@@ -39,13 +39,16 @@
 				</div><!-- #columns -->
 			</div><!-- .columns-container -->
 			<!-- Footer -->
-			<div class="footer-container">
-				<footer id="footer"  class="container">
-					<div class="row">{$HOOK_FOOTER}</div>
-				</footer>
-			</div><!-- #footer -->
+			
+				<div class="footer-container">
+					<footer id="footer"  class="container">
+						<div class="row">{$HOOK_FOOTER}</div>
+					</footer>
+				</div><!-- #footer -->
+			
 		</div><!-- #page -->
 {/if}
 {include file="$tpl_dir./global.tpl"}
 	</body>
 </html>
+
