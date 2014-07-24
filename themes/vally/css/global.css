@@ -1410,7 +1410,7 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
   vertical-align: middle;
   float:left;
   background-color: white;
-  border: none !important;
+  border: 1px solid #d6d4d4;
   border-radius: 0px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -5412,7 +5412,9 @@ label {
   display: none; }
 
 .checkbox {
-  line-height: 16px; }
+  line-height: 16px;
+  
+}
   .checkbox label {
     color: #777777; }
 
@@ -7515,7 +7517,9 @@ p.cheque-indent {
 #new_account_form .form-group,
 #opc_account_form .form-group,
 #authentication .form-group {
-  margin-bottom: 4px; }
+  margin-bottom: 38px;
+
+  text-align: left;  }
   #address .form-group .form-control,
   #identity .form-group .form-control,
   #account-creation_form .form-group .form-control,
@@ -7547,7 +7551,7 @@ p.cheque-indent {
     #new_account_form .form-group.phone-number + p,
     #opc_account_form .form-group.phone-number + p,
     #authentication .form-group.phone-number + p {
-      padding: 23px 0 0 0px;
+      padding: 14px 0 0 0px;
       margin-bottom: 0; } }
 #address .gender-line,
 #identity .gender-line,
@@ -8720,4 +8724,10 @@ background:#2d3032;
 }
 .footer-block.col-xs-12.col-sm-2 {
   width: 19.333% !important;
+}
+.search_query.form-control.ac_input {
+  border: none;}
+
+.inline-infos.required {
+  float: left;
 }
