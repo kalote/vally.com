@@ -6871,7 +6871,7 @@ div.star a:hover {
   background: url("../images/footeri.png") no-repeat scroll 0 100% / 100% 7% #333333;
   display: block;
   float: left;
-  padding-bottom: 10px;
+  padding: 14px 101px 27px;
   width: 100%;
 }
     .footer-container #footer .footer-block {
@@ -8714,4 +8714,10 @@ background:#2d3032;
 }
 .lof-add-cart {
   display: none;
+}
+.footer-block.col-xs-12.col-sm-4 {
+  width: 29.333% !important;
+}
+.footer-block.col-xs-12.col-sm-2 {
+  width: 19.333% !important;
 }
