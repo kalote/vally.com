@@ -98,7 +98,7 @@
 .sf-menu li ul {
   display: none;
   left: 0;
-  top: 59px;
+  top: 38px;
   /* match top ul list item height */
   z-index: 99;
   padding: 12px 0px 18px 0px;
