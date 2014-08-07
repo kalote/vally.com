@@ -83,7 +83,7 @@ audio:not([controls]) {
   display: none; }
 
 html {
-  font-family: sans-serif;
+  
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
@@ -234,7 +234,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 13px;
   line-height: 1.42857;
   color: #777777;
@@ -411,7 +411,7 @@ h4 small, .h4 small {
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 9px; }
+  margin-bottom: 15px; }
   ul ul,
   ul ol,
   ol ul,
@@ -4409,7 +4409,12 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   content: "\f053"; }
 
 .icon-chevron-right:before {
-  content: "\f054"; }
+  content: "";
+  margin-left: 7px;
+  margin-top: 2px;
+  line-height: 8px;
+  font-size: 12px;
+}
 
 .icon-plus-sign:before {
   content: "\f055"; }
@@ -6767,7 +6772,7 @@ div.star a:hover {
 .breadcrumb {
   display: inline-block;
   padding: 0 11px;
-  border: 1px solid #d6d4d4;
+  /*border: 1px solid #d6d4d4;*/
   font-weight: bold;
   font-size: 12px;
   line-height: 24px;
@@ -6909,7 +6914,7 @@ div.star a:hover {
     .footer-container #footer ul li {
        line-height: 21px;
        padding-bottom: 1px;
-      padding-left: 13px;
+      padding-left: 0px;
       }
       .footer-container #footer ul li a {
         font-weight: bold;
@@ -8136,7 +8141,7 @@ div.star.star_hover:after {
 /***custom css***/
 
 body{
-font-family:times new roman;
+
 font-size:13px;
 
 }
@@ -8193,7 +8198,7 @@ float:left;
     margin-left: 30px;
 }
 .righsidecontents {
-  background: url("../images/greytopbk.png") no-repeat scroll center top / 68% 90% rgba(0, 0, 0, 0);
+  background: url("../images/greytopbk.png") no-repeat scroll center top / 68% 78% rgba(0, 0, 0, 0);
   float: right;
   padding-bottom: 21px;
   width: 73%;
@@ -8346,9 +8351,8 @@ padding-top: 15px;
     background: url("../images/line.png") no-repeat scroll center center rgba(0, 0, 0, 0);
     color: rgb(217, 80, 0);
     float: left;
-    font-family: Conv_MyriadPro-Regular;
     font-size: 16px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     text-align: center;
     width: 100%;
 }
@@ -8620,6 +8624,7 @@ background:#2d3032;
 .bottom-footer.col-xs-12 > div {
   text-align: center;
 }
+/*
 .tree.dynamized > li {
   background: url("../images/liarrow.png") no-repeat scroll left center rgba(0, 0, 0, 0);
 }
@@ -8628,7 +8633,7 @@ background:#2d3032;
 }
 .bullet > li{
   background: url("../images/liarrow.png") no-repeat scroll left center rgba(0, 0, 0, 0);
-}
+} */
 #block_contact_infos .toggle-footer > li {
   background: none !important;
 }
@@ -8731,3 +8736,77 @@ background:#2d3032;
 .inline-infos.required {
   float: left;
 }
+
+/**** 6 Aug ****/
+.bottom-footer.col-xs-12 {
+  display: none;
+}
+.tree.dynamized a {
+  font-size: 12px;
+}
+.item > a{
+  font-size: 12px;
+}
+.bullet a {
+  font-size: 12px;
+}
+.footer-block.col-xs-12.col-sm-4.cust_myaccount {
+  width: 21.333% !important;
+}
+.cust_width{
+  width: 58.333%;
+}
+.cust_margin{
+  margin-top: 24px;
+}
+.box-security{
+  display:none;
+}
+.cust_right{
+  width:58% !important;
+}
+.sendtofriend {
+  float: left;
+  width: 26%;
+}
+@media (min-width: 320px) {
+.cust_right {
+    width: 100% !important;
+}
+.box-info-product .exclusive span {
+  padding: 3px 9px !important;
+  text-align: left;
+}
+.sendtofriend {
+  width: 100% !important;
+}
+.footer-container #footer h4:after {
+  float: left;
+  right: 24px;
+  top: 1px;
+  width: 100%;
+}
+.footer_bottom {
+  padding: 14px 73px;
+}
+
+
+  }
+  @media (min-width: 768px) {
+
+    .box-info-product .exclusive:before{
+      display: none;
+    }
+.box-info-product .exclusive:after {
+display: none;
+}
+.sf-menu > li > ul > li {
+  float: left;
+  padding-right: 11px;
+  width: 13% !important;
+}
+.cust_right{
+  width:58% !important;
+}
+
+  }
