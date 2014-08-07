@@ -56,7 +56,7 @@
 			</p>
 		{/if}
 		<!-- left infos-->  
-		<div class="pb-left-column col-xs-12 col-sm-4 col-md-5">
+		<div class="pb-left-column col-xs-12 col-sm-4 col-md-5 cust_margin">
 			<!-- product img-->        
 			<div id="image-block" class="clearfix">
 				{if $product->new}
@@ -154,7 +154,7 @@
 		</div> <!-- end pb-left-column -->
 		<!-- end left infos--> 
 		<!-- center infos -->
-		<div class="pb-center-column col-xs-12 col-sm-4">
+		<div class="pb-center-column col-xs-12 col-sm-4 cust_width">
 			{if $product->online_only}
 				<p class="online_only">{l s='Online only'}</p>
 			{/if}
@@ -241,7 +241,7 @@
 		</div>
 		<!-- end center infos-->
 		<!-- pb-right-column-->
-		<div class="pb-right-column col-xs-12 col-sm-4 col-md-3">
+		<div class="pb-right-column col-xs-12 col-sm-4 col-md-3 cust_right">
 			{if ($product->show_price && !isset($restricted_country_mode)) || isset($groups) || $product->reference || (isset($HOOK_PRODUCT_ACTIONS) && $HOOK_PRODUCT_ACTIONS)}
 			<!-- add to cart form-->
 			<form id="buy_block"{if $PS_CATALOG_MODE && !isset($groups) && $product->quantity > 0} class="hidden"{/if} action="{$link->getPageLink('cart')|escape:'html':'UTF-8'}" method="post">
