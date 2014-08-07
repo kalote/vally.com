@@ -2,20 +2,17 @@
 #wishlist_button {
   font-weight: 700; }
   #wishlist_button:before {
-    content: "\f08a";
-    font: 400 15px/31px "FontAwesome";
-    color: white;
-    background: #929292;
-    width: 30px;
-    text-align: center;
-    display: inline-block;
-    height: 30px;
-    margin: 0 6px 0 0;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
-    border-radius: 50px; }
+  background: none repeat scroll 0 0 #929292;
+  border-radius: 50px;
+  color: white;
+  content: "";
+  display: inline-block;
+  font: 400 13px/23px "FontAwesome";
+  height: 20px;
+  margin: 1px 6px 0 0;
+  text-align: center;
+  width: 20px;
+}
 
 /* wishlist block */
 #wishlist_block #wishlist_block_list {
