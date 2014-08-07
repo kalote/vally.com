@@ -37,7 +37,11 @@
     overflow: hidden; }
     @media (min-width: 768px) and (max-width: 991px) {
       .shopping_cart > a:first-child span.ajax_cart_product_txt, .shopping_cart > a:first-child span.ajax_cart_product_txt_s {
-         } }
+         } 
+       .cart_block {
+          top: 56px !important;
+        }
+    }
 .shopping_cart > a:first-child b {
   color: #000000;
   font: lighter 16px/18px "Open Sans",sans-serif;
@@ -151,31 +155,34 @@
       margin-right: 0;
       border: none; }
       .cart_block .cart-buttons a#button_order_cart span {
-        padding: 7px 0;
-        font-size: 1.1em;
-        border: solid 1px #63c473;
-        background: #43b155; }
+  background: none repeat scroll 0 0 #d95000;
+  font-size: 1.1em;
+  padding: 7px 0;
+}
       .cart_block .cart-buttons a#button_order_cart:hover span {
-        border: solid 1px #358c43;
-        background: #2e7a3a;
-        color: white; }
+        /*border: solid 1px #358c43;*/
+        background: #d95000;
+        color: white;
+        opacity: 0.75; }
 
 /*******************************************************************
 					Cart Block(Header) Styles
 ********************************************************************/
 #header .cart_block {
-  position: absolute;
-  top: 45px;
-  right: 0;
-  z-index: 100;
+  background: none repeat scroll 0 0 #484848;
+  color: white;
   display: none;
   height: auto;
-  background: #484848;
-  color: white;
-  width: 270px; }
+  left: -68px;
+  position: absolute;
+  top:55px ;
+  width: 233px !important;
+  z-index: 100;
+}
   @media (max-width: 480px) {
     #header .cart_block {
-      width: 100%; } }
+      width: 100%;
+      top:77px; } }
   @media (max-width: 1200px) {
     #header .cart_block {
       width: 100%; } }
@@ -347,7 +354,8 @@
       margin-bottom: 17px; }
       @media (max-width: 767px) {
         #layer_cart .layer_cart_cart h2 {
-          font-size: 18px; } }
+          font-size: 18px; }
+           }
     #layer_cart .layer_cart_cart .layer_cart_row {
       padding: 0 0 7px 0; }
     #layer_cart .layer_cart_cart .button-container {
@@ -452,3 +460,5 @@
       content: "\f138"; }
   #layer_cart .crossseling #blockcart_list .bx-controls {
     overflow: hidden; }
+
+
