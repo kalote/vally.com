@@ -4,7 +4,7 @@
 #homepage-slider {
   float: left;
   margin-bottom: 14px;
-  max-height: 100%;
+  max-height: 500px;
   max-width: 100%;
   overflow: hidden;
   padding-right: 0 !important;
@@ -128,7 +128,7 @@
     content: "\f054"; }
 #homepage-slider .bx-wrapper .bx-controls-direction a {
   position: absolute;
-  bottom: 10px;
+  bottom: 160px;
   outline: 0;
   width: 52px;
   height: 52px;
