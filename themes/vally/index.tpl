@@ -28,7 +28,7 @@
 				  <div class="textgetibspire">
 				    GET  INSPIRED
 				  </div>
-				 
+				 {if isset($marketing_spots)}
 				    <div class="catagories">
 				    	{foreach $marketing_spots as $key}
 					    <ul>
@@ -42,7 +42,7 @@
 						</ul>
 						{/foreach}
 			  		</div>
-			  		
+			  		{/if}
 			</div>
 		</div>
 
