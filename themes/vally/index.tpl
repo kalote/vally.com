@@ -23,11 +23,26 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
-<div class="getinspire">
+		<div class="getinspire">
 		    <div class="wraper">
 				  <div class="textgetibspire">
 				    GET  INSPIRED
 				  </div>
+				 
+				    <div class="catagories">
+				    	{foreach $marketing_spots as $key}
+					    <ul>
+							<li>
+								<div class="box">
+							 		 <h1> {$key.image_name} </h1>
+							 		 <a href="#"><img src="{$modules_dir}/Stylingimages/images/{$key.image}"></a>
+							  		<h2> {$key.image_description} </h2> 
+							  	</div>
+							</li>
+						</ul>
+						{/foreach}
+			  		</div>
+			  		
 			</div>
 		</div>
 
@@ -42,3 +57,4 @@
 {if isset($HOOK_HOME) && $HOOK_HOME|trim}
 	<div class="clearfix">{$HOOK_HOME}</div>
 {/if}
+ 
