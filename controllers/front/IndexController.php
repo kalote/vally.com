@@ -41,6 +41,8 @@ class IndexControllerCore extends FrontController
 			'HOOK_HOME_TAB' => Hook::exec('displayHomeTab'),
 			'HOOK_HOME_TAB_CONTENT' => Hook::exec('displayHomeTabContent')
 		));
+		$result = Db::getInstance()->ExecuteS('SELECT * FROM `ps_marketingspots` where status="1" order By id desc limit 3');
+		$this->context->smarty->assign('marketing_spots',$result);
 		$this->setTemplate(_PS_THEME_DIR_.'index.tpl');
 	}
 }
