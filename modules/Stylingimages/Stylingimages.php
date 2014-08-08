@@ -190,6 +190,8 @@ public function getContent()
 private function display_data($id,$module_link){
 
  $path=$this->_path."images/";
+ $sql = 'SELECT * FROM '._DB_PREFIX_.'marketingspots order by id desc limit 3';
+  if ($results = Db::getInstance()->ExecuteS($sql))
  $display_content="<table border='2'class='spot_display' >
     <tr>
     <th>Name</th>
@@ -197,8 +199,7 @@ private function display_data($id,$module_link){
     <th>Status</th>
     <th>Delete</th>
   ";
-  $sql = 'SELECT * FROM '._DB_PREFIX_.'marketingspots order by id desc limit 3';
-  if ($results = Db::getInstance()->ExecuteS($sql))
+  
     foreach ($results as $row){ 
      if($row['status']==1){
       $status="<a href='".$module_link."&idss=1&deact=".$row['id']."' title='Click to Deactivate'>Deactivate</a>";
