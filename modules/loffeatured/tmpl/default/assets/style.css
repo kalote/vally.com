@@ -232,3 +232,22 @@
 .featured-item .lof-main-puplic {
     text-align: center;
 }
+/*******8Aug******/
+@media (min-width: 320px) {
+
+.list-featured ul li {
+  width: 289px !important;
+}
+.responsive-img {
+  height: 133px;
+  
+}
+
+}
+@media (min-width: 768px) {
+
+.list-featured ul li {
+  width: 228px !important;
+}
+
+}
