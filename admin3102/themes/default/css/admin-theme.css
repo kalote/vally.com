@@ -4107,3 +4107,41 @@ i.mce-i-backcolor { background: #bbbbbb; }
 .nobootstrap .panel:not(.bootstrap) .tree i.tree-dot, .nobootstrap .bootstrap #dash_version:not(.bootstrap) .tree i.tree-dot, .bootstrap .nobootstrap #dash_version:not(.bootstrap) .tree i.tree-dot, .nobootstrap .bootstrap .message-item-initial .message-item-initial-body:not(.bootstrap) .tree i.tree-dot, .bootstrap .message-item-initial .nobootstrap .message-item-initial-body:not(.bootstrap) .tree i.tree-dot, .nobootstrap .bootstrap .timeline .timeline-item .timeline-caption .timeline-panel:not(.bootstrap) .tree i.tree-dot, .bootstrap .timeline .timeline-item .timeline-caption .nobootstrap .timeline-panel:not(.bootstrap) .tree i.tree-dot { display: inline-block; position: relative; width: 6px; height: 6px; margin: 0 4px; background-color: #cccccc; -webkit-border-radius: 6px; border-radius: 6px; }
 .nobootstrap .panel:not(.bootstrap) .tree .tree-item-disable, .nobootstrap .bootstrap #dash_version:not(.bootstrap) .tree .tree-item-disable, .bootstrap .nobootstrap #dash_version:not(.bootstrap) .tree .tree-item-disable, .nobootstrap .bootstrap .message-item-initial .message-item-initial-body:not(.bootstrap) .tree .tree-item-disable, .bootstrap .message-item-initial .nobootstrap .message-item-initial-body:not(.bootstrap) .tree .tree-item-disable, .nobootstrap .bootstrap .timeline .timeline-item .timeline-caption .timeline-panel:not(.bootstrap) .tree .tree-item-disable, .bootstrap .timeline .timeline-item .timeline-caption .nobootstrap .timeline-panel:not(.bootstrap) .tree .tree-item-disable, .nobootstrap .panel:not(.bootstrap) .tree .tree-folder-name-disable, .nobootstrap .bootstrap #dash_version:not(.bootstrap) .tree .tree-folder-name-disable, .bootstrap .nobootstrap #dash_version:not(.bootstrap) .tree .tree-folder-name-disable, .nobootstrap .bootstrap .message-item-initial .message-item-initial-body:not(.bootstrap) .tree .tree-folder-name-disable, .bootstrap .message-item-initial .nobootstrap .message-item-initial-body:not(.bootstrap) .tree .tree-folder-name-disable, .nobootstrap .bootstrap .timeline .timeline-item .timeline-caption .timeline-panel:not(.bootstrap) .tree .tree-folder-name-disable, .bootstrap .timeline .timeline-item .timeline-caption .nobootstrap .timeline-panel:not(.bootstrap) .tree .tree-folder-name-disable { color: #cccccc; }
 .nobootstrap .panel:not(.bootstrap) .tree .tree-item-disable:hover, .nobootstrap .bootstrap #dash_version:not(.bootstrap) .tree .tree-item-disable:hover, .bootstrap .nobootstrap #dash_version:not(.bootstrap) .tree .tree-item-disable:hover, .nobootstrap .bootstrap .message-item-initial .message-item-initial-body:not(.bootstrap) .tree .tree-item-disable:hover, .bootstrap .message-item-initial .nobootstrap .message-item-initial-body:not(.bootstrap) .tree .tree-item-disable:hover, .nobootstrap .bootstrap .timeline .timeline-item .timeline-caption .timeline-panel:not(.bootstrap) .tree .tree-item-disable:hover, .bootstrap .timeline .timeline-item .timeline-caption .nobootstrap .timeline-panel:not(.bootstrap) .tree .tree-item-disable:hover, .nobootstrap .panel:not(.bootstrap) .tree .tree-folder-name-disable:hover, .nobootstrap .bootstrap #dash_version:not(.bootstrap) .tree .tree-folder-name-disable:hover, .bootstrap .nobootstrap #dash_version:not(.bootstrap) .tree .tree-folder-name-disable:hover, .nobootstrap .bootstrap .message-item-initial .message-item-initial-body:not(.bootstrap) .tree .tree-folder-name-disable:hover, .bootstrap .message-item-initial .nobootstrap .message-item-initial-body:not(.bootstrap) .tree .tree-folder-name-disable:hover, .nobootstrap .bootstrap .timeline .timeline-item .timeline-caption .timeline-panel:not(.bootstrap) .tree .tree-folder-name-disable:hover, .bootstrap .timeline .timeline-item .timeline-caption .nobootstrap .timeline-panel:not(.bootstrap) .tree .tree-folder-name-disable:hover { color: #cccccc; background-color: none; }
+/***********8 Aug**************/
+.spot_table {
+  
+  text-align: left;
+  width: 722px;
+}
+.spot_table tr {
+  height: 41px;
+}
+.spot_table td {
+  float: left;
+  margin-bottom: 4px;
+  margin-top: 12px;
+  width: 18%;
+}
+.spot_table input[type="text"] {
+  width: 195px;
+}
+.spot_table input[type="submit"] {
+  margin-left: 130px;
+  width: 124px;
+}
+.spot_display {
+  width: 76%;
+  margin-top: 30px;
+}
+.spot_display th {
+  height: 42px;
+  text-align: center;
+}
+.spot_display td {
+  text-align: center;
+  width: 21%;
+}
+.spot_display img {
+  height: 127px;
+  width: 100%;
+}
