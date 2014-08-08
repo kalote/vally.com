@@ -8352,7 +8352,7 @@ padding-top: 15px;
     color: rgb(217, 80, 0);
     float: left;
     font-size: 16px;
-    margin-bottom: 0px;
+    margin-bottom: 25px;
     text-align: center;
     width: 100%;
 }
@@ -8373,25 +8373,26 @@ width:100%;
 .box > h1 {
     background: none repeat scroll 0 0 rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    font-family: Conv_MyriadPro-Regular;
+    /*font-family: Conv_MyriadPro-Regular;*/
     font-size: 24.05pt;
     padding: 10px 0;
     width: 100%;
 }
 .box h2 {
-    font-family: Conv_MyriadPro-Regular;
+    /*font-family: Conv_MyriadPro-Regular;*/
     font-size: 28px;
     font-weight: normal;
     width: 100%;
 }
 .lastbottom {
     color: rgb(95, 95, 95);
-    font-family: Conv_MyriadPro-Regular;
+    /*font-family: Conv_MyriadPro-Regular;*/
     font-size: 18px;
     width: 100%;
 }
 .catagories > ul {
     width: auto;
+    margin: 0px;
 }
 .catagories ul li {
     float: left;
@@ -8417,7 +8418,7 @@ width:100%; background: #333333;
 
 .joinleters {
     font-size: 18px;
-	font-family: Conv_MyriadPro-Regular;
+	/*font-family: Conv_MyriadPro-Regular;*/
 	color:white;
 }
 .mailbox{
@@ -8439,7 +8440,7 @@ width:100%;
 }
 .mailbox > input {
     border: medium none;
-    font-family: Conv_MyriadPro-Regular;
+    /*font-family: Conv_MyriadPro-Regular;*/
     font-size: 15px;
     padding: 12px;
     width: 60%;
@@ -8467,7 +8468,7 @@ width:100%;
 }
 
 .repeatbox h4 {
-    font-family: Conv_MyriadPro-Regular;
+    /*font-family: Conv_MyriadPro-Regular;*/
     font-size: 14px;
     font-weight: normal;
     margin-top: 26px;
@@ -8500,7 +8501,7 @@ width:100%;
 .headtext {
     border-bottom: 1px solid rgb(125, 126, 127);
     color: rgb(198, 198, 198);
-    font-family: Conv_MyriadPro-Regular;
+    /*font-family: Conv_MyriadPro-Regular;*/
     font-size: 18px;
     font-weight: normal;
     padding-left: 10px;
@@ -8518,7 +8519,7 @@ width:100%;
 .block ul li {
     background: url("../images/liarrow.png") no-repeat scroll left center rgba(0, 0, 0, 0);
     border-bottom: 1px dashed rgb(198, 198, 198);
-    font-family: Conv_MyriadPro-Regular;
+    /*font-family: Conv_MyriadPro-Regular;*/
     font-size: 14px;
     line-height: 20px;
     list-style: none outside none;
